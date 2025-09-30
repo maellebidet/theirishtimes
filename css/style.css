@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* ----- Header ----- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    background: #f9f9f9;
+}
+
+.titre h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+/* ----- Carte ----- */
+#map {
+    height: 400px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 6px 10px;
+    background: #b5cfb8;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* ----- Article ----- */
+h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin: 20px 0 10px;
+}
+
+/* ----- Intro et graphique ----- */
+.intro {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.intro .texte {
+    flex: 2;
+}
+
+.intro .graphique {
+    flex: 1;
+    max-width: 300px; 
+}
+
+.intro img {
+    width: 100%;
+    height: auto;
+}
